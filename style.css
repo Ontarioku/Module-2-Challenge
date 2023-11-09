@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display:flex;
+    justify-content: end;
+    list-style: none;
+   
+}
+header nav ul li{
+    margin-right: 3vw;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+img{
+  border-radius: 40%;
+  
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.page-section{
+    margin-top:5vw;
+    background-color: blueviolet;
+    
+}
+#about h1{
+    text-align: center;
+}
+.about-content p{
+padding:2%;
+font-size: 20px;
+line-height: 1.5;
+}
+
+footer {
+    list-style: circle;
+}
+
+
+    
